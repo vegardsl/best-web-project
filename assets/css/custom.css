@@ -26,11 +26,6 @@ p {
     font-weight: 200;
 }
 
-.title {
-	font-family: 'Savoye LET', 'Dancing Script', 'Brush Script MT', Serif;
-}
-
-
 /* =======  NAVBAR ====== */
 .navbar {
 	background-color: white;
@@ -50,10 +45,11 @@ p {
 /* =======  LOGO ====== */
 
 .title {
+    font-family: 'Savoye LET', 'Dancing Script', 'Brush Script MT', Serif;
     color: #FFF;
     font-size: 200px;
     text-align: center;
-    margin-top: 80px;
+    margin: 80px 0 20px;
 }
 
 
@@ -78,16 +74,42 @@ p {
 }
 
 .form-search {
-    margin: -20px 0 85px;
-
+    margin: -20px 0 85px 20px;
+    width: 500px;
 }
+
 .form-control {
 	border: none;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     height: 45px;
-    font-family: 'Oriya Sangnam';
+    font-family: 'Oriya Sangnam MN', 'Geneva', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 40px;
+    color: #808080;
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #B4B4B4;
+}
+
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #B4B4B4;
+}
+
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #B4B4B4;
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #B4B4B4;
+}
+
+.form-control:hover {
+    box-shadow: 0px 0px 4px #fff;
+    -moz-box-shadow: 0px 0px 4px #fff;
+    -webkit-box-shadow: 0px 0px 4px #fff;
 }
 
 .btn-default {
@@ -98,7 +120,7 @@ p {
     -webkit-border-radius: 0 8px 8px 0;
     -moz-border-radius: 0 8px 8px 0;
     height: 45px;
-    width: 60px;
+    width: 80px;
 
 }
 
@@ -106,6 +128,18 @@ p {
 	background-color: #4978e2;
 	color: #FFF;
 	border-color: #4978e2;
+}
+
+#search-button:active {
+    background-color: #4978e2;
+    color: #FFF;
+    border-color: #4978e2;
+}
+
+#search-button:target {
+    background-color: #4978e2;
+    color: #FFF;
+    border-color: #4978e2;
 }
 
 .glyphicon-search {

@@ -26,10 +26,8 @@ p {
     font-weight: 200;
 }
 
-/* Chris was here */
-
 .title {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Savoye LET', 'Dancing Script', 'Brush Script MT', Serif;
 }
 
 
@@ -53,9 +51,9 @@ p {
 
 .title {
     color: #FFF;
-    font-size: 150px;
+    font-size: 200px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 
@@ -80,22 +78,39 @@ p {
 }
 
 .form-search {
-    margin: 50px 0 70px;
+    margin: -20px 0 85px;
+
 }
 .form-control {
 	border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    height: 45px;
+    font-family: 'Oriya Sangnam';
 }
 
 .btn-default {
 	background-color: #4990e2;
 	color: #FFF;
 	border-color: #4990e2;
+    border-radius: 0 8px 8px 0;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    height: 45px;
+    width: 60px;
+
 }
 
 .btn-default:hover {
 	background-color: #4978e2;
 	color: #FFF;
 	border-color: #4978e2;
+}
+
+.glyphicon-search {
+    font-size: 25px;
+    margin-top: 3px;
 }
 
 

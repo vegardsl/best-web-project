@@ -75,7 +75,7 @@ p {
 }
 
 .form-search {
-    margin: -20px 0 85px 20px;
+    margin: -20px 0 50px 20px;
     width: 500px;
 }
 
@@ -194,8 +194,11 @@ p {
 
 
 /* =======  REVIEW SECTION ====== */
+.new-reviews {
+    margin-top: 10px;
+}
+
 #reviews-title {
-    margin: 50px 0 30px 15px;
     font-weight: 200;
 }
 
@@ -268,6 +271,11 @@ footer {
         padding-left: 16px;
     }
 }
+
+@media screen and ( max-width : 1000px ) {
+    #new-reviews {
+        margin-left: -320px;
+    }
 
 @media screen and ( max-width : 1200px ) {
     .form-search {

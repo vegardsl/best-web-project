@@ -61,12 +61,12 @@ p {
     text-align:center;
 }
 .col-centered {
-    display:inline-block;
-    float:none;
+    display: inline-block;
+    float: none;
     /* reset the text-align */
     text-align:left;
     /* inline-block space fix */
-    margin-right:-4px;
+    margin-right: -4px;
 }
 
 #position-center {
@@ -244,4 +244,20 @@ footer {
     background-color: #fff;
     color: #696969;
 }
+
+
+/* =======  MEDIA QUERIES ====== */
+@media screen and ( max-width : 488px ) {
+    .title {
+        height: 120px;
+    }
+}
+
+@media screen and ( max-width : 570px ) {
+    .form-search {
+        margin-left: 0px;
+        width: 360px;
+    }
+}
+
 

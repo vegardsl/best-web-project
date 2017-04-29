@@ -55,17 +55,17 @@ p {
 
 /* =======  SEARCH SECTION ====== */
 
-.above-blur {
-    color: white;
-    font-size: 12px;
-    position: relative;
-    position: absolute;
-    z-index: 2;
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
-    filter: blur(0px);
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
 }
 
 #position-center {
@@ -150,6 +150,20 @@ p {
 
 
 /* =======  BLUR SECTION ====== */
+.above-blur {
+    color: white;
+    font-size: 12px;
+    position: relative;
+    position: absolute;
+    z-index: 2;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
+
 .blur {
     background: url("../img/background.jpg") no-repeat center;
     overflow: hidden;

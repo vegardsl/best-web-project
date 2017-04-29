@@ -255,9 +255,23 @@ footer {
 
 @media screen and ( max-width : 570px ) {
     .form-search {
-        margin-left: 0px;
+        margin-left: -5px;
         width: 360px;
     }
+
+    #search-button {
+        width: 60px;
+    }
+
+    .form-control {
+        font-size: 17px;
+        padding-left: 16px;
+    }
 }
+
+@media screen and ( max-width : 1200px ) {
+    .form-search {
+        margin-left: -10px;
+    }
 
 

@@ -237,15 +237,11 @@ p {
 
 /* =======  FOOTER ====== */
 footer {
-    position: absolute;
-    padding: 15px 0 10px;
-    left: 0;
-    bottom: 0;
-    z-index: 3;
-    height: 50px;
-    width: 100%;
-    background-color: #fff;
-    color: #696969;
+
+}
+
+#footer-position {
+
 }
 
 

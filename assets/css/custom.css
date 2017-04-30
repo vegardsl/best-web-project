@@ -6,8 +6,7 @@
 
 body {
 	background: url("../img/background.jpg") repeat 0 0;
-    height: 100%
-    margin: 0;
+    height: 100%;
     padding: 0;
 }
 
@@ -154,7 +153,6 @@ p {
 .above-blur {
     color: white;
     font-size: 12px;
-    position: relative;
     position: absolute;
     z-index: 2;
     -webkit-filter: blur(0px);
@@ -175,9 +173,8 @@ p {
     -ms-filter: blur(5px);
     filter: blur(5px);
     position: absolute;
-    background-size: cover;
     width: 100%;
-    height: 750px;
+    height: 650px;
 }
 
 .color-overlay {
@@ -186,9 +183,8 @@ p {
     overflow: hidden;
     z-index: 2;
     position: absolute;
-    background-size: cover;
     width: 100%;
-    height: 750px;
+    height: 650px;
 }
 
 
@@ -234,12 +230,36 @@ p {
 }
 
 
-
-/* =======  FOOTER ====== */
-#footer-box {
-    height: 50px;
+/* =======  FOOTER ATTACHMENT ======= */
+#footer-attachment {
+    height: 650px;
+    position: relative;
 }
 
+
+/* =======  FOOTER ====== */
+footer {
+    height: 35px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+#footer-text {
+    padding: 5px 5px 0px 10px;
+    color: #959595;
+}
+
+#contact-link {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #959595;
+    font-weight: 400;
+}
+
+#contact-link:hover {
+    color: black;
+}
 
 
 /* =======  MEDIA QUERIES ====== */

@@ -236,13 +236,10 @@ p {
 
 
 /* =======  FOOTER ====== */
-footer {
-
+#footer-box {
+    height: 50px;
 }
 
-#footer-position {
-
-}
 
 
 /* =======  MEDIA QUERIES ====== */

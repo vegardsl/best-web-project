@@ -1,7 +1,4 @@
 /* Custom CSS */
-
-
-
 /* =======  GLOBAL ====== */
 
 body {
@@ -51,7 +48,6 @@ p {
     margin-bottom: 50px;
 
 }
-
 
 /* =======  SEARCH SECTION ====== */
 
@@ -294,5 +290,4 @@ footer {
     .form-search {
         margin-left: -10px;
     }
-
 

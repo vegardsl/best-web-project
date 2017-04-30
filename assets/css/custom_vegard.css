@@ -1,0 +1,108 @@
+/* ======= PAGEWIDE ===== */
+body {
+	background: url("../img/background.jpg");
+	background-size: cover;
+    height: 100%
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =======  NAVBAR ====== */
+.navbar {
+	background-color: white;
+	border-radius: 0px;
+	border: none;
+	white-space: nowrap;
+}
+
+.navbar-brand {
+	margin-top: -4px;
+}
+
+/*==== LOGO/SEARCH SECTION ==== */
+#logo_search_section {
+	text-align: center;
+}
+
+.title {
+	max-width: 60%;
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-top: 10%;
+}
+
+.form-search {
+	/*POSITION*/
+	max-width: 850px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	
+	/*LOOK AND FEEL*/
+	border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    height: 45px;
+	color: #808080;
+	font-family: 'Oriya Sangnam MN', 'Geneva', Arial, sans-serif;
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #B4B4B4;
+}
+
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #B4B4B4;
+}
+
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #B4B4B4;
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #B4B4B4;
+}
+/*
+.form-control:hover {
+    box-shadow: 0px 0px 4px #fff;
+    -moz-box-shadow: 0px 0px 4px #fff;
+    -webkit-box-shadow: 0px 0px 4px #fff;
+}
+
+.btn-default {
+	background-color: #4990e2;
+	color: #FFF;
+	border-color: #4990e2;
+    border-radius: 0 8px 8px 0;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    height: 45px;
+    width: 80px;
+
+}
+
+.btn-default:hover {
+	background-color: #4978e2;
+	color: #FFF;
+	border-color: #4978e2;
+}
+
+#search-button:active {
+    background-color: #4978e2;
+    color: #FFF;
+    border-color: #4978e2;
+}
+
+#search-button:target {
+    background-color: #4978e2;
+    color: #FFF;
+    border-color: #4978e2;
+}
+
+.glyphicon-search {
+    font-size: 25px;
+    margin-top: 3px;
+}*/

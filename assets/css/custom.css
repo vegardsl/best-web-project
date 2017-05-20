@@ -1,4 +1,11 @@
 /* Custom CSS */
+
+/* TEMPORARY */
+
+* {
+    border: 1px solid red;
+}
+
 /* =======  GLOBAL ====== */
 
 body {
@@ -312,6 +319,7 @@ footer {
     font-size: 24px;
     font-weight: 200;
     letter-spacing: 1px;
+    width: 250px;
 }
 
 

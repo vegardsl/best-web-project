@@ -361,7 +361,9 @@ footer {
 /* =======  product page footer ====== */
 #footer-attachment-product {
     height: 1000px;
-    position: relative;
+}
+
+#footer-text {
 }
 
 

@@ -298,7 +298,16 @@ footer {
 /* =======  TOP TABLE ====== */
 
 #product-top {
-        
+        /*width: 60%;
+		margin: 0 auto;*/
+}
+
+#product-container {
+	position: absolute;
+	width: 60%;
+	left: 50%;
+	margin-left: -30%;
+	
 }
 
 #product-img {

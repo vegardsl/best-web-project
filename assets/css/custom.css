@@ -2,7 +2,7 @@
 
 /* TEMPORARY */
 
-* {
+/** {
     border: 1px solid red;
 }
 
@@ -338,6 +338,7 @@ footer {
     width: 250px;
 }
 
+/* Review Section (Product Page) */
 .lead {
     font-weight: 100;
 }
@@ -345,6 +346,11 @@ footer {
 .source {
     margin-top: -20px;
     font-weight: 200;
+}
+
+
+#review-summaries {
+    margin-top: -200px;
 }
 
 

@@ -2,7 +2,7 @@
 
 /* TEMPORARY */
 
-/** {
+* {
     border: 1px solid red;
 }
 
@@ -265,7 +265,7 @@ footer {
 
 
 
-/* =======  PRODUCT PAGE ====== */
+/* ===================================================  PRODUCT PAGE ================================================ */
 
 /* ======== Blur for the product page (it is different) ========== */
 #blur {
@@ -329,6 +329,10 @@ footer {
 
 #big-percent {
     /*margin: 10px -80px 0 0;*/
+}
+
+#score-bar {
+    width: 300px;
 }
 
 #based-on {

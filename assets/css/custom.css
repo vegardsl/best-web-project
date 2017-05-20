@@ -290,6 +290,10 @@ footer {
 
 /* =======  TOP TABLE ====== */
 
+#product-top {
+        
+}
+
 #product-img {
     height: 328px;
     margin-top: 20px;
@@ -304,9 +308,14 @@ footer {
     margin: 10px -80px 0 0;
 }
 
-#product-top {
-        
+#based-on {
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 1px;
 }
+
+
+
 
 
 /* =======  MEDIA QUERIES ====== */

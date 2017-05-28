@@ -9,7 +9,6 @@
 /* =======  GLOBAL ====== */
 
 body {
-	background: url("../img/background.jpg") repeat 0 0;
     height: 100%;
     padding: 0;
 }
@@ -57,6 +56,11 @@ p {
 }
 
 /* =======  SEARCH SECTION ====== */
+
+#body-home {
+    background: url("../img/background.jpg") no-repeat center;
+}
+
 
 /* centered columns styles */
 .row-centered {
@@ -269,8 +273,8 @@ p {
 
 /* ======== Background ========== */
 
-body {
-    background: url("../img/background-product.jpg");
+#product-body {
+    background: url("../img/background-product.jpg") no-repeat center;
 }
 
 

@@ -2,9 +2,9 @@
 
 /* TEMPORARY */
 
-/* {
+/** {
     border: 1px solid red;
-}
+}*/
 
 /* =======  GLOBAL ====== */
 
@@ -403,7 +403,12 @@ p {
 @media screen and ( max-width : 1200px ) {
     #product-top {
         margin-left: -90px;
-    }    
+    }
+    
+    .product-title {
+        width: 700px;
+    }
+}    
 
 
 

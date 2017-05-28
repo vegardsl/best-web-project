@@ -240,14 +240,14 @@ p {
 
 
 /* =======  FOOTER ====== */
-footer {
+#footer-front-page {
     height: 35px;
     width: 100%;
     background-color: #fff;
     position: relative;
 }
 
-#footer-text {
+#footer-text-front {
     padding: 5px 5px 0px 10px;
     color: #959595;
 }
@@ -279,10 +279,11 @@ body {
 #product-top {
         /*width: 60%;
 		margin: 0 auto;*/
+        position: relative;
 }
 
 #product-container {
-	position: absolute;
+	position: relative;
 	width: 60%;
 	left: 50%;
 	margin-left: -30%;
@@ -340,10 +341,22 @@ body {
 /* =======  product page footer ====== */
 #footer-attachment-product {
     height: 1000px;
+    position: relative;
 }
 
-#footer-text {
+#footer-product {
+    height: 35px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    bottom: 0;
 }
+
+#footer-text-product {
+    padding: 5px 5px 0px 10px;
+    color: #959595;
+}
+
 
 
 

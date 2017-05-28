@@ -408,8 +408,16 @@ p {
     .product-title {
         width: 700px;
     }
+
+    #product-img {
+        height: 265px;
+    }
 }    
 
+@media screen and ( max-width : 500px ) {
+    #product-img {
+        height: 200px;
+    }
 
 
 

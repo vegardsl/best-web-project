@@ -329,6 +329,11 @@ p {
 /* Review Section (Product Page) */
 .lead {
     font-weight: 100;
+
+}
+
+#lead-product {
+    margin: 0px;
 }
 
 .source {
@@ -407,6 +412,7 @@ p {
     
     .product-title {
         width: 700px;
+
     }
 
     #product-img {
@@ -418,6 +424,7 @@ p {
     #product-img {
         height: 200px;
     }
+}
 
 
 

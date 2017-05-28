@@ -412,7 +412,6 @@ p {
     
     .product-title {
         width: 700px;
-
     }
 
     #product-img {
@@ -420,11 +419,18 @@ p {
     }
 }    
 
+@media screen and (max-width : 1000px ) {
+    .right-column {
+        margin-left: 40px; 
+    }
+}
+
 @media screen and ( max-width : 500px ) {
     #product-img {
         height: 200px;
     }
 }
+
 
 
 

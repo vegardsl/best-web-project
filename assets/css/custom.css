@@ -284,6 +284,7 @@ p {
         /*width: 60%;
 		margin: 0 auto;*/
         position: relative;
+        margin-left: 100px;
 }
 
 #product-container {
@@ -295,16 +296,15 @@ p {
 }
 
 #product-img {
-	max-width: 100%;
-    /*height: 328px;*/
+	/*max-width: 100%;*/
+    height: 328px;
     margin-top: 20px;
 }
 
 #big-drop {
 	position: relative;
 	width: 36px;
-	height: 36px;
-	
+	height: 36px;	
 	top: 55%;
 	margin-top: -8px;
     /*margin: 20px 0 0 100px;*/
@@ -364,7 +364,7 @@ p {
 
 
 
-/* =======  MEDIA QUERIES ====== */
+/* =======  MEDIA QUERIES HOME PAGE ====== */
 @media screen and ( max-width : 488px ) {
     .title {
         height: 120px;
@@ -396,4 +396,16 @@ p {
     .form-search {
         margin-left: -10px;
     }
+
+
+/* =======  MEDIA QUERIES PRODUCT PAGE ====== */
+
+@media screen and ( max-width : 1200px ) {
+    #product-top {
+        margin-left: -90px;
+    }    
+
+
+
+
 

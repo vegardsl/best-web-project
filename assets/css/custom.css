@@ -441,6 +441,11 @@ p {
     .right-column {
         margin-left: 40px; 
     }
+
+    #quote-container {
+    margin-left: -40%;
+}
+
 }
 
 @media screen and (max-width : 900px ) {
@@ -454,6 +459,9 @@ p {
     #product-img {
         height: 200px;
     }
+
+    #quote-container {
+    margin-left: -48%;
 }
 
 

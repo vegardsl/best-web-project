@@ -22,11 +22,22 @@ body > div {
 
 h1 {
     font-size: 50px;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
 }
 
 p {
     font-weight: 200;
+    color: #fff;
 }
+
 
 /* =======  NAVBAR ====== */
 .navbar {
@@ -424,6 +435,13 @@ p {
         margin-left: 40px; 
     }
 }
+
+@media screen and (max-width : 900px ) {
+    
+
+}
+
+
 
 @media screen and ( max-width : 500px ) {
     #product-img {

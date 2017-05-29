@@ -338,6 +338,13 @@ p {
 }
 
 /* Review Section (Product Page) */
+#quote-container {
+    position: relative;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+}
+
 .lead {
     font-weight: 100;
 

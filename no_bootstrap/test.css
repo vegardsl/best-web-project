@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+}
+
+.navbar {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+    background-color: #333;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-item {
+	display: inline;
+	float: left;
+}
+
+.navbar-item a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#right-navbar-item {
+	float: right;
+}
+
+.navbar-item a:hover {
+	background-color: #111;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	background-color: #333;
+}

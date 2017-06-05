@@ -38,6 +38,10 @@ p {
     color: #fff;
 }
 
+.text-center {
+    text-align: center;
+}
+
 
 /* =======  NAVBAR ====== */
 .navbar {
@@ -390,6 +394,20 @@ p {
 #contact-body {
     background: url("../img/background-product.jpg") no-repeat center;
 }
+
+#lead-center {
+    text-align: center;
+}
+
+#email-container {
+    margin-top: 25%;
+}
+
+#email {
+    font-weight: 200;
+    font-size: 30px;
+}
+
 
 
 /* =======  MEDIA QUERIES HOME PAGE ====== */

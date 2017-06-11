@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'dropletdatabase');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'xympdsf808');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'MZ25yRtHZWH21jOr');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '[t]7X9*1rw$FHJ:2T[@UX-LPTb&-p ]ZXTJ,-W1fHo[Nu|Fn2-3+-za%Bc4urYx(');
+define('SECURE_AUTH_KEY',  'bc5mMbV|F?}qk_!ljL(yUPAQxWA[6HL>?<2F&1Bi|a{Ex ][<xq~{ly&0`V?tJ+s');
+define('LOGGED_IN_KEY',    'd*8G/_MX7YZ=wHCGj1uxih,zzu?QkK8*7sGtg@xzH}J}i`JwST&Tp/`u84]a|+<B');
+define('NONCE_KEY',        'xT40-o-Q7](^kRGx;eUF~,W:.[kMx( 1[Sf?8x0cYDrBz+IMA|,ffRZZFnHwCLI*');
+define('AUTH_SALT',        'J0BmjU&kPFKcj>6d~YgGYP{9_o??@]R!0F4Q;cG8l4g;p|P<p%RW0}7KhZf9a@3p');
+define('SECURE_AUTH_SALT', 'u4oUWpE(]JI_0j8kmQa2S6Wx;6y%3y+ZU:>[|M)~ln>}_l6.%02a%9QHM2e)XiDW');
+define('LOGGED_IN_SALT',   'yDrU97ann|<@xh,z,|@0o(A5x|{@$m~-qe2SK6Bq,SENsX,J+(ss~A_$.P_^E*x?');
+define('NONCE_SALT',       '>rs!KS3=$-,?Iv@Vy--`cfZ{z[V`}rwGtLo{+*eKE?U((bd5t-i3)z$;oH4YiXi,');
 
 /**#@-*/
 
@@ -63,7 +63,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'dropletmain_';
 
 /**
  * For developers: WordPress debugging mode.

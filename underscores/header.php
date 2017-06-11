@@ -16,6 +16,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
+<!-- Boostrap Core CSS . We always need to reference files in the THEME (underscores) folder -->
+<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+
 <?php wp_head(); ?>
 </head>
 
@@ -23,32 +26,30 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'dropletreviews' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
+	<header class="site-header" role="banner">
+		<!-- ========== NAVBAR ========== -->
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header pull-left">
+		      <a class="navbar-brand"><img src="assets/img/logo-banner-vector.svg"></a>
+		    </div>
+		
 
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'dropletreviews' ); ?></button>
-			<?php
-				wp_nav_menu( array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
+		<?php 
+			wp_nav_menu( array(
+				'theme_location'  =>  'primary',
+				'container' =>	'nav',
+				'container_class'	=> 'nav'
+				'menu_class' => 'nav navbar-nav navbar-right pull-right'
 				) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+		?>
+<!-- 			<ul class="nav navbar-nav navbar-right pull-right">
+		      <li><a href="contact.html">Contact us</a></li>
+		    </ul> -->
+			
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
 
 	<div id="content" class="site-content">

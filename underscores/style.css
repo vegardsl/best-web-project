@@ -23,28 +23,29 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Content
-	## Posts and pages
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
+1 Normalize
+2 Typography
+3 Elements
+4 Forms
+5 Navigation
+	5.1 Links
+	5.2 Menus
+6 Accessibility
+7 Alignments
+8 Clearings
+9 Widgets
+10 Content
+	10.1 Posts and pages
+	10.2 Comments
+11 Infinite scroll
+12 Media
+	12.1 Captions
+	12.2 Galleries
+13 Custom CSS for Droplet
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
-# Normalize
+1. Normalize
 --------------------------------------------------------------*/
 html {
 	font-family: sans-serif;
@@ -258,7 +259,7 @@ th {
 }
 
 /*--------------------------------------------------------------
-# Typography
+2. Typography
 --------------------------------------------------------------*/
 body,
 button,
@@ -338,7 +339,7 @@ big {
 }
 
 /*--------------------------------------------------------------
-# Elements
+3. Elements
 --------------------------------------------------------------*/
 html {
 	box-sizing: border-box;
@@ -415,7 +416,7 @@ table {
 }
 
 /*--------------------------------------------------------------
-# Forms
+4. Forms
 --------------------------------------------------------------*/
 button,
 input[type="button"],
@@ -500,10 +501,10 @@ textarea {
 }
 
 /*--------------------------------------------------------------
-# Navigation
+5. Navigation
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-## Links
+5.1 Links
 --------------------------------------------------------------*/
 a {
 	color: royalblue;
@@ -529,7 +530,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-## Menus
+5.2 Menus
 --------------------------------------------------------------*/
 .main-navigation {
 	clear: both;
@@ -643,7 +644,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-# Accessibility
+6. Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */
 .screen-reader-text {
@@ -681,7 +682,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-# Alignments
+7. Alignments
 --------------------------------------------------------------*/
 .alignleft {
 	display: inline;
@@ -703,7 +704,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-# Clearings
+8. Clearings
 --------------------------------------------------------------*/
 .clear:before,
 .clear:after,
@@ -732,7 +733,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-# Widgets
+9. Widgets
 --------------------------------------------------------------*/
 .widget {
 	margin: 0 0 1.5em;
@@ -744,10 +745,10 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-# Content
+10. Content
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
-## Posts and pages
+10.1 Posts and pages
 --------------------------------------------------------------*/
 .sticky {
 	display: block;
@@ -779,7 +780,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-## Comments
+10.2 Comments
 --------------------------------------------------------------*/
 .comment-content a {
 	word-wrap: break-word;
@@ -790,7 +791,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-# Infinite scroll
+11. Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
@@ -804,7 +805,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-# Media
+12. Media
 --------------------------------------------------------------*/
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
@@ -823,7 +824,7 @@ object {
 }
 
 /*--------------------------------------------------------------
-## Captions
+12.1 Captions
 --------------------------------------------------------------*/
 .wp-caption {
 	margin-bottom: 1.5em;
@@ -845,7 +846,7 @@ object {
 }
 
 /*--------------------------------------------------------------
-## Galleries
+12.2 Galleries
 --------------------------------------------------------------*/
 .gallery {
 	margin-bottom: 1.5em;
@@ -893,3 +894,505 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+/*--------------------------------------------------------------
+13. Our custom CSS for Droplet
+--------------------------------------------------------------*/
+
+/* Custom CSS */
+
+
+/* TEMPORARY */
+
+ /** {
+    border: 1px solid red;
+}*/
+
+/* =======  GLOBAL ====== */
+
+body {
+    height: 100%;
+    padding: 0;
+}
+
+body > div {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+}
+
+p {
+    font-weight: 200;
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* =======  NAVBAR ====== */
+.navbar {
+	background-color: white;
+	border-radius: 0px;
+	border: none;
+	white-space: nowrap;
+}
+
+.navbar-brand {
+	margin-top: -4px;
+}
+
+#right-link {
+	display: inline-block;
+}
+
+/* =======  LOGO ====== */
+
+.title {
+    display: block;
+    margin: 0 auto;
+    height: 170px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+
+/* =======  SEARCH SECTION ====== */
+
+#body-home {
+    background: url("../img/background.jpg") no-repeat center;
+}
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+#position-center {
+    float: none;
+    margin: 0 auto;
+}
+
+.form-search {
+    margin: -20px 0 50px 20px;
+    width: 500px;
+}
+
+.form-control {
+	border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    height: 45px;
+    font-family: 'Oriya Sangnam MN', 'Geneva', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 40px;
+    color: #808080;
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #B4B4B4;
+}
+
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #B4B4B4;
+}
+
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #B4B4B4;
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #B4B4B4;
+}
+
+.form-control:hover {
+    box-shadow: 0px 0px 4px #fff;
+    -moz-box-shadow: 0px 0px 4px #fff;
+    -webkit-box-shadow: 0px 0px 4px #fff;
+}
+
+.btn-default {
+	background-color: #4990e2;
+	color: #FFF;
+	border-color: #4990e2;
+    border-radius: 0 8px 8px 0;
+    -webkit-border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    height: 45px;
+    width: 80px;
+
+}
+
+.btn-default:hover {
+	background-color: #4978e2;
+	color: #FFF;
+	border-color: #4978e2;
+}
+
+#search-button:active {
+    background-color: #4978e2;
+    color: #FFF;
+    border-color: #4978e2;
+}
+
+#search-button:target {
+    background-color: #4978e2;
+    color: #FFF;
+    border-color: #4978e2;
+}
+
+.glyphicon-search {
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+
+
+/* =======  BLUR SECTION ====== */
+.above-blur {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    z-index: 2;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
+
+.blur {
+    background: url("../img/background.jpg") no-repeat center;
+    overflow: hidden;
+    z-index: 2;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: absolute;
+    width: 100%;
+    height: 650px;
+}
+
+.color-overlay {
+	background: url("../img/background.jpg") no-repeat center;
+	background: rgba(73,144,226,0.2);
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 650px;
+}
+
+
+/* =======  REVIEW SECTION ====== */
+.new-reviews {
+    margin-top: 10px;
+}
+
+#reviews-title {
+    font-weight: 200;
+}
+
+#products {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.bottom-rated {
+    list-style-image: url("../img/0-32-icon.png");
+}
+
+.med-rated {
+    list-style-image: url("../img/33-66-icon.png");
+}
+
+.top-rated {
+    list-style-image: url("../img/67-100-icon.png");
+}
+
+#more-reviews {
+    border: none;
+    margin-top: 5px;
+    margin-left: -12px;
+    font-size: 22px;
+    font-weight: 100;
+    color: #fff;
+    cursor: pointer;
+}
+
+#more-reviews:hover {
+    font-weight: 200;
+}
+
+
+/* =======  FOOTER ATTACHMENT ======= */
+#footer-attachment {
+    height: 650px;
+    position: relative;
+}
+
+
+/* =======  FOOTER ====== */
+#footer-front-page {
+    height: 35px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+#footer-text-front {
+    padding: 5px 5px 0px 10px;
+    color: #959595;
+}
+
+#contact-link {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #959595;
+    font-weight: 400;
+}
+
+#contact-link:hover {
+    color: black;
+}
+
+
+
+
+
+/* ===================================================  PRODUCT PAGE ================================================ */
+
+/* ======== Background ========== */
+
+#product-body {
+    background: url("../img/background-product.jpg") no-repeat center;
+}
+
+
+/* =======  top table ====== */
+
+#product-top {
+        /*width: 60%;
+		margin: 0 auto;*/
+        position: relative;
+        margin-left: 100px;
+}
+
+#product-container {
+	position: relative;
+	width: 60%;
+	left: 50%;
+	margin-left: -30%;
+	
+}
+
+#product-img {
+	/*max-width: 100%;*/
+    height: 328px;
+    margin-top: 20px;
+}
+
+#big-drop {
+	position: relative;
+	width: 36px;
+	height: 36px;	
+	top: 55%;
+	margin-top: -8px;
+    /*margin: 20px 0 0 100px;*/
+    /*height: 39px;*/
+}
+
+#big-percent {
+    /*margin: 10px -80px 0 0;*/
+}
+
+#score-bar {
+    width: 300px;
+}
+
+#based-on {
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 250px;
+}
+
+/* Review Section (Product Page) */
+#quote-container {
+    position: relative;
+    width: 60%;
+    left: 50%;
+    margin-left: -24%;
+}
+
+.lead {
+    font-weight: 100;
+
+}
+
+#lead-product {
+    margin: 0px;
+}
+
+.source {
+    margin-top: -20px;
+    font-weight: 200;
+}
+
+
+#review-summaries {
+    margin-top: -200px;
+}
+
+
+/* =======  product page footer ====== */
+#footer-attachment-product {
+    position: relative;
+}
+
+#footer-product {
+    height: 35px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    bottom: 0;
+}
+
+#footer-text-product {
+    padding: 5px 5px 0px 10px;
+    color: #959595;
+}
+
+
+/* ===================================================  CONTACT US PAGE ================================================ */
+#contact-body {
+    background: url("../img/background-product.jpg") no-repeat center;
+}
+
+#lead-center {
+    text-align: center;
+}
+
+#email-container {
+    margin-top: 25%;
+}
+
+#email {
+    font-weight: 200;
+    font-size: 30px;
+}
+
+
+
+/* =======  MEDIA QUERIES HOME PAGE ====== */
+@media screen and ( max-width : 488px ) {
+    .title {
+        height: 120px;
+    }
+}
+
+@media screen and ( max-width : 570px ) {
+    .form-search {
+        margin-left: -5px;
+        width: 360px;
+    }
+
+    #search-button {
+        width: 60px;
+    }
+
+    .form-control {
+        font-size: 17px;
+        padding-left: 16px;
+    }
+}
+
+@media screen and ( max-width : 1000px ) {
+    #new-reviews {
+        margin-left: -320px;
+    }
+
+@media screen and ( max-width : 1200px ) {
+    .form-search {
+        margin-left: -10px;
+    }
+
+
+/* =======  MEDIA QUERIES PRODUCT PAGE ====== */
+
+@media screen and ( max-width : 1200px ) {
+    #product-top {
+        margin-left: -90px;
+    }
+    
+    .product-title {
+        width: 700px;
+    }
+
+    #product-img {
+        height: 265px;
+    }
+
+    .col-xs-8 {
+        margin-left: 30px;
+    }
+
+}    
+
+
+@media screen and (max-width : 1000px ) {
+    .right-column {
+        margin-left: 40px; 
+    }
+
+    #quote-container {
+        margin-left: -40%;
+        width: 80%;
+    }
+}
+
+
+@media screen and ( max-width : 500px ) {
+    #product-img {
+        height: 200px;
+    }
+
+    #quote-container {
+        margin-left: -48%;
+        width: 97%;
+}
+
+
+
+
+
+
